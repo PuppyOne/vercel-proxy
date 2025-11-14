@@ -2,8 +2,8 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "https://${PROXY_TARGET_URL}/:1"
+      "source": "/:path*",
+      "destination": "https://${PROXY_TARGET_URL}/:path"
     }
   ]
 }

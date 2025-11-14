@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://${PROXY_TARGET_URL}/:1"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/:path*",
-      "destination": "https://${PROXY_TARGET_URL}/:path"
+      "destination": "https://${PROXY_TARGET_URL}/:path*"
     }
   ]
 }
